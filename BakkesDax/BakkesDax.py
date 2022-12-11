@@ -14,10 +14,10 @@ def linktwitch():
     get_url=webbrowser.open('https://www.twitch.tv/sandax')
 
 def linkdiscord():
-    get_url=webbrowser.open('https://www.twitter.com/sandax_')
+    get_url=webbrowser.open('https://discord.gg/mDdGhkRSXx')
 
 def linktwitter():
-    get_url=webbrowser.open('https://www.twitch.tv')
+    get_url=webbrowser.open('https://www.twitter.com/sandax_')
 
 def linkgithub():
     get_url=webbrowser.open('https://www.github.com/Sandaxxx/BakkesMod-Remastered')
@@ -49,7 +49,7 @@ linkmenu.add_command(label="★ BakkesDax.com", background='#e9d8a6', command=li
 linkmenu.add_command(label="★ BakkesDax Twitch", background='#9b5de5', command=linktwitch)
 linkmenu.add_command(label="★ BakkesDax Discord", background='#7289da', command=linkdiscord)
 linkmenu.add_command(label="★ BakkesDax Twitter", background='#00b4d8', command=linktwitter)
-linkmenu.add_command(label="★ BakkesDax Github", background='#00b4d8', command=linkgithub)
+linkmenu.add_command(label="★ BakkesDax Github", background='#333', command=linkgithub)
 menubar.add_cascade(label="Links", menu=linkmenu)
 
 # MENU SETTINGS
